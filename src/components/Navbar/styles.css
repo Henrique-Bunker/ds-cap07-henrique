@@ -1,0 +1,50 @@
+.main-nav {
+  min-height: 70px;
+}
+
+.main-nav button {
+  color: #00285f;
+}
+
+.main-nav h4 {
+  color: #00285f;
+  font-size: 24px;
+}
+
+.main-menu a {
+  color: #00285f;
+}
+
+.main-menu a.active {
+  font-weight: 700;
+}
+
+.menu-itens-container {
+  justify-content: flex-end;
+}
+
+.menu-itens-container ul {
+  justify-content: flex-start;
+}
+
+.menu-itens-container li {
+  padding-right: 50px;
+}
+
+@media (min-width: 576px) {
+  .main-nav {
+    padding-left: 88px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-nav {
+    padding-right: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    padding-right: 440px;
+  }
+}
