@@ -1,0 +1,27 @@
+.catalog-container {
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .catalog-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+  .catalog-container {
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
