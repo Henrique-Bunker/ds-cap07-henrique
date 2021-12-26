@@ -1,14 +1,15 @@
 import 'bootstrap/js/src/collapse.js'
 import './styles.css'
 import { ReactComponent as MenuHamburgerIcon } from 'assets/images/menu-hamburguer.svg'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-warning main-nav">
       <div className="container-fluid">
-        <a href="link">
+        <Link to="/">
           <h4>Carros Top</h4>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -27,12 +28,12 @@ const Navbar = () => {
         >
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <a href="link" className="active">
+              <NavLink to="/" className="active">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="link">Catálogo</a>
+              <NavLink to="/products">Catálogo</NavLink>
             </li>
           </ul>
         </div>
